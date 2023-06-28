@@ -1,0 +1,741 @@
+@media only screen and (max-width: 700px){
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.kontakt{
+    padding-bottom: 1%;
+    border-bottom: solid 2px rgb(229, 229, 229);
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+}
+.cislo{
+    text-align:end;
+    grid-column: 2;
+}
+header a{
+    text-align: left;
+    grid-column: 1;
+    text-decoration: none;
+    color: black;
+}
+.hlavicka{
+    margin-right: 3%;
+    margin-top: 3%;
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    
+}
+.hlavicka img{
+    width: 100%;
+    height: 100%;
+    grid-column: 1;
+ 
+}
+.odkaz1{
+grid-column: 2;
+text-align: right;
+font-weight: bold;
+}
+.odkaz2{
+grid-column: 3;
+text-align: right;
+font-weight: bold;
+}
+.odkaz3{
+grid-column: 4;
+text-align: right;
+font-weight: bold;
+}
+.sekce1{
+    margin-top: 20px;
+    margin-left: 32%;
+    margin-right: 32%;
+    text-align: center;
+    border-bottom: solid 2px rgb(255, 167, 0);
+    
+}
+.sekce2{
+
+    margin:50px 20% 50px 20%;
+   
+    text-align: center;
+}
+.sidlo{
+    border-top: solid 5px rgb(255, 167, 0);
+    border-bottom: solid 5px rgb(255, 167, 0);
+}
+
+.obsah{
+    font-size: 13px;
+    line-height: 0.8;
+    color: rgb(134, 134, 134);
+}
+.obsahnazev{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 0.8;
+    color: rgb(134, 134, 134);
+}
+.nazev{
+    padding-bottom: 15px;
+    font-size: 20px;
+    color: rgb(17, 18, 20);
+}
+.telefon{
+    color: rgb(255, 167, 0);
+    font-size: 20px;
+}
+.sekce3{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  display:grid;
+  grid-template-columns: repeat(2,50%);
+  grid-template-rows: repeat(3,33.33333333333%);
+}
+.user1{
+    margin: 2%;
+    padding: 5px;
+    border: 1px solid rgb(229, 229, 229);
+    background-color: rgb(247, 247, 247);
+    grid-row:1;
+    grid-column:1;
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+.user2{
+    margin: 2%;
+    padding: 5px;
+    border: 1px solid rgb(229, 229, 229);
+    background-color: rgb(247, 247, 247);
+    grid-row:1;
+    grid-column:2;
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+.user3{
+    margin: 2%;
+    padding: 5px;
+    border: 1px solid rgb(229, 229, 229);
+    background-color: rgb(247, 247, 247);
+    grid-row:2;
+    grid-column:1;
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+.user4{
+    margin: 2%;
+    padding: 5px;
+    border: 1px solid rgb(229, 229, 229);
+    background-color: rgb(247, 247, 247);
+    grid-row:2;
+    grid-column:2;
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+.user5{
+    margin: 2%;
+    padding: 5px;
+    border: 1px solid rgb(229, 229, 229);
+    background-color: rgb(247, 247, 247);
+    grid-row:3;
+    grid-column:1;
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+.user6{
+    margin: 2%;
+    padding: 5px;
+    border: 1px solid rgb(229, 229, 229);
+    background-color: rgb(247, 247, 247);
+    grid-row:3;
+    grid-column:2;
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+.ob{
+    width: 120%;
+    grid-column: 1;
+  
+}
+.user a{
+    text-decoration: none;
+}
+.jm{
+    padding-left: 10%;
+    padding-bottom: 1px;
+    font-size: 20px;
+    color:rgb(244, 168, 0);
+    grid-column: 2;
+}
+.obs{
+    margin: 10px 2% 10px 2%;
+    grid-column: span 2;
+    font-size: 13px;
+    line-height: 0.8;
+    color: black;
+    line-height: 1;
+}
+
+.formular{
+    margin-right: 28%;
+    display: grid;
+    grid-template-columns: 80%,20%;
+    grid-template-rows: 100%;
+
+}   
+form{
+    grid-column: 1;
+    grid-row: 1;
+
+    
+}
+button{
+
+    font-size: 13px;
+    margin-bottom: 20px;
+    color: black;
+    text-align: center;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-color:rgb(254, 193, 7);;
+    background-color: rgb(254, 193, 7);
+    grid-column: 2;
+    grid-row: 1;
+    line-height: 1.2;
+}
+.zahlavi{
+    margin:0px;
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    border: solid 2px rgb(17, 18, 20);
+    background-color: rgb(17, 18, 20);
+    color: rgb(255,255,255);
+    font-size: 11px;
+}
+.newsletter{
+    margin: 3%;
+    grid-column: 1;
+}
+.dotazy{
+    margin: 3%;
+    grid-column: 2;
+}
+.dotazy a{
+    margin-left: 10%;
+    line-height: 1.5;
+    text-decoration: none;
+    color: rgb(255,255,255);
+}
+.novinky{
+    display: none;
+}
+.naz{
+    font-size: 20px;
+}
+}
+@media only screen and (min-width: 701px){
+    body{
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+    }
+    .kontakt{
+        padding-bottom: 1%;
+        border-bottom: solid 2px rgb(229, 229, 229);
+        display: grid;
+        grid-template-columns: repeat(2,50%);
+    }
+    .cislo{
+        text-align:end;
+        grid-column: 2;
+    }
+    header a{
+        text-align: left;
+        grid-column: 1;
+        text-decoration: none;
+        color: black;
+    }
+    .hlavicka{
+        margin-right: 3%;
+        margin-top: 3%;
+        display: grid;
+        grid-template-columns: 55% 15% 15% 15%;
+        
+    }
+    .hlavicka img{
+        width: 30%;
+        height: 100%;
+        grid-column: 1;
+     
+    }
+    .odkaz1{
+    grid-column: 2;
+    padding-top: 10px;
+    text-align: right;
+    font-weight: bold;
+    }
+    .odkaz2{
+    padding-top: 10px;
+    grid-column: 3;
+    text-align: right;
+    font-weight: bold;
+    }
+    .odkaz3{
+    padding-top: 10px;
+    grid-column: 4;
+    text-align: right;
+    font-weight: bold;
+    }
+    .sekce1{
+        margin-top: 20px;
+        margin-left: 32%;
+        margin-right: 32%;
+        text-align: center;
+        border-bottom: solid 2px rgb(255, 167, 0);
+    }
+    .sekce2{
+        margin:3%;
+        display: grid;
+        grid-template-columns: repeat(3,33.33333333333%);
+        text-align: center;
+    }
+    .centrala{
+        grid-column: 1;
+    }
+    .sidlo{
+        border-left: solid 5px rgb(255, 167, 0);
+        border-right: solid 5px rgb(255, 167, 0);
+        grid-column: 2;
+    }
+    .linka{
+        grid-column: 3;
+    }
+    .obsah{
+        font-size: 13px;
+        line-height: 0.8;
+        color: rgb(134, 134, 134);
+    }
+    .obsahnazev{
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 0.8;
+        color: rgb(134, 134, 134);
+    }
+    .nazev{
+        padding-bottom: 15px;
+        font-size: 20px;
+        color: rgb(17, 18, 20);
+    }
+    .telefon{
+        color: rgb(255, 167, 0);
+        font-size: 20px;
+    }
+    .sekce3{
+        margin-top: 30px;
+        margin-bottom: 30px;
+      display:grid;
+      grid-template-columns: repeat(3,33.33333333333%);
+      grid-template-rows: repeat(2,50%);
+    }
+    .user1{
+        margin: 2%;
+        padding: 5px;
+        border: 1px solid rgb(229, 229, 229);
+        background-color: rgb(247, 247, 247);
+        grid-row:1;
+        grid-column:1;
+        display: grid;
+        grid-template-columns: 20% 80%;
+    }
+    .user2{
+        margin: 2%;
+        padding: 5px;
+        border: 1px solid rgb(229, 229, 229);
+        background-color: rgb(247, 247, 247);
+        grid-row:1;
+        grid-column:2;
+        display: grid;
+        grid-template-columns: 20% 80%;
+    }
+    .user3{
+        margin: 2%;
+        padding: 5px;
+        border: 1px solid rgb(229, 229, 229);
+        background-color: rgb(247, 247, 247);
+        grid-row:1;
+        grid-column:3;
+        display: grid;
+        grid-template-columns: 20% 80%;
+    }
+    .user4{
+        margin: 2%;
+        padding: 5px;
+        border: 1px solid rgb(229, 229, 229);
+        background-color: rgb(247, 247, 247);
+        grid-row:2;
+        grid-column:1;
+        display: grid;
+        grid-template-columns: 20% 80%;
+    }
+    .user5{
+        margin: 2%;
+        padding: 5px;
+        border: 1px solid rgb(229, 229, 229);
+        background-color: rgb(247, 247, 247);
+        grid-row:2;
+        grid-column:2;
+        display: grid;
+        grid-template-columns: 20% 80%;
+    }
+    .user6{
+        margin: 2%;
+        padding: 5px;
+        border: 1px solid rgb(229, 229, 229);
+        background-color: rgb(247, 247, 247);
+        grid-row:2;
+        grid-column:3;
+        display: grid;
+        grid-template-columns: 20% 80%;
+    }
+    .ob{
+        width: 120%;
+        grid-column: 1;
+      
+    }
+    .user a{
+        text-decoration: none;
+    }
+    .jm{
+        padding-left: 10%;
+        padding-bottom: 1px;
+        font-size: 20px;
+        color:rgb(244, 168, 0);
+        grid-column: 2;
+    }
+    .obs{
+        margin: 10px 2% 10px 2%;
+        grid-column: span 2;
+        font-size: 13px;
+        line-height: 1;
+        color: black;
+    }
+    .formular{
+        margin-right: 28%;
+        display: grid;
+        grid-template-columns: 10%,90%;
+        grid-template-rows: 100%;
+    
+    }   
+    form{
+        grid-column: 1;
+        grid-row: 1;
+    
+        
+    }
+    button{
+       
+        font-size: 13px;
+        margin-bottom: 20px;
+        color: black;
+        text-align: center;
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+        border-color:rgb(254, 193, 7);;
+        background-color: rgb(254, 193, 7);
+        grid-column: 2;
+        grid-row: 1;
+        line-height: 1.2;
+    }
+    .zahlavi{
+        margin:0px;
+        display: grid;
+        grid-template-columns: repeat(5,20%);
+        border: solid 2px rgb(17, 18, 20);
+        background-color: rgb(17, 18, 20);
+        color: rgb(255,255,255);
+        font-size: 11px;
+    }
+    .newsletter{
+        margin: 3%;
+        grid-column: 2;
+    }
+    .dotazy{
+        margin: 3%;
+        grid-column: 3;
+    }
+    .dotazy a{
+        margin-left: 10%;
+        line-height: 1.5;
+        text-decoration: none;
+        color: rgb(255,255,255);
+    }
+    .novinky{
+        margin: 3%;
+        grid-column: 4;
+    }
+    .datum{
+        color: rgb(134, 134, 134);
+    }
+    .naz{
+        font-size: 20px;
+    }
+
+}
+@media only screen and (min-width: 1111px){
+    body{
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+    }
+    .kontakt{
+        
+        padding-bottom: 1%;
+        border-bottom: solid 2px rgb(229, 229, 229);
+        display: grid;
+        grid-template-columns: repeat(2,50%);
+    }
+    .cislo{
+        text-align:end;
+        grid-column: 2;
+    }
+    header a{
+        text-align: left;
+        grid-column: 1;
+        text-decoration: none;
+        color: black;
+    }
+    .hlavicka{
+        margin-top: 3%;
+        margin-right: 3%;
+        display: grid;
+        grid-template-columns: 55% 15% 15% 15%;
+        
+    }
+    .hlavicka img{
+        width: 30%;
+        height: 100%;
+        grid-column: 1;
+     
+    }
+    .odkaz1{
+    grid-column: 2;
+    padding-top: 25px;
+    font-size: 25px;
+    text-align: right;
+    font-weight: bold;
+    }
+    .odkaz2{
+    padding-top: 25px;
+    font-size: 25px;
+    grid-column: 3;
+    text-align: right;
+    font-weight: bold;
+    }
+    .odkaz3{
+    padding-top: 25px;
+    font-size: 25px;
+    grid-column: 4;
+    text-align: right;
+    font-weight: bold;
+    }
+    .sekce1{
+        padding:0px;
+        font-size: 25px;
+        margin-top: 20px;
+        margin-left: 32%;
+        margin-right: 32%;
+        text-align: center;
+        border-bottom: solid 5px rgb(255, 167, 0);
+        
+    }
+    .sekce2{
+        margin:3%;
+        display: grid;
+        grid-template-columns: repeat(5,20%);
+        text-align: center;
+    }
+    .centrala{
+        grid-column: 2;
+    }
+    .sidlo{
+        border-left: solid 5px rgb(255, 167, 0);
+        border-right: solid 5px rgb(255, 167, 0);
+        grid-column: 3;
+    }
+    .linka{
+        grid-column: 4;
+    }
+    .obsah{
+        font-size: 13px;
+        line-height: 0.8;
+        color: rgb(134, 134, 134);
+    }
+    .obsahnazev{
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 0.8;
+        color: rgb(134, 134, 134);
+    }
+    .nazev{
+        padding-bottom: 15px;
+        font-size: 20px;
+        color: rgb(17, 18, 20);
+    }
+    .telefon{
+        color: rgb(255, 167, 0);
+        font-size: 20px;
+    }
+    .sekce3{
+        margin-top: 30px;
+        margin-bottom: 30px;
+      display:grid;
+      grid-template-columns: repeat(5,20%);
+      grid-template-rows: repeat(2,50%);
+    }
+    .user1{
+        margin: 2%;
+        padding: 5px;
+        border: 1px solid rgb(229, 229, 229);
+        background-color: rgb(247, 247, 247);
+        grid-row:1;
+        grid-column:2;
+        display: grid;
+        grid-template-columns: 20% 80%;
+    }
+    .user2{
+        margin: 2%;
+        padding: 5px;
+        border: 1px solid rgb(229, 229, 229);
+        background-color: rgb(247, 247, 247);
+        grid-row:1;
+        grid-column:3;
+        display: grid;
+        grid-template-columns: 20% 80%;
+    }
+    .user3{
+        margin: 2%;
+        padding: 5px;
+        border: 1px solid rgb(229, 229, 229);
+        background-color: rgb(247, 247, 247);
+        grid-row:1;
+        grid-column:4;
+        display: grid;
+        grid-template-columns: 20% 80%;
+    }
+    .user4{
+        margin: 2%;
+        padding: 5px;
+        border: 1px solid rgb(229, 229, 229);
+        background-color: rgb(247, 247, 247);
+        grid-row:2;
+        grid-column:2;
+        display: grid;
+        grid-template-columns: 20% 80%;
+    }
+    .user5{
+        margin: 2%;
+        padding: 5px;
+        border: 1px solid rgb(229, 229, 229);
+        background-color: rgb(247, 247, 247);
+        grid-row:2;
+        grid-column:3;
+        display: grid;
+        grid-template-columns: 20% 80%;
+    }
+    .user6{
+        margin: 2%;
+        padding: 5px;
+        border: 1px solid rgb(229, 229, 229);
+        background-color: rgb(247, 247, 247);
+        grid-row:2;
+        grid-column:4;
+        display: grid;
+        grid-template-columns: 20% 80%;
+    }
+    .ob{
+        width: 120%;
+        grid-column: 1;
+      
+    }
+    .user a{
+        text-decoration: none;
+    }
+    .jm{
+        padding-left: 10%;
+        padding-bottom: 1px;
+        font-size: 20px;
+        color:rgb(244, 168, 0);
+        grid-column: 2;
+    }
+    .obs{
+        margin: 10px 2% 10px 2%;
+        grid-column: span 2;
+        font-size: 13px;
+        line-height: 0.8;
+        color: black;
+        line-height: 1;
+    }
+    
+    .formular{
+        margin-right: 28%;
+        display: grid;
+        grid-template-columns: 50%,50%;
+        
+    
+    }   
+    input{
+        grid-column: 1;
+   
+    
+        
+    }
+    .odeslat{
+        grid-column: 2;
+        
+    }
+    button{
+       
+        font-size: 13px;
+        margin-bottom: 20px;
+        color: black;
+        text-align: center;
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+        border-color:rgb(254, 193, 7);;
+        background-color: rgb(254, 193, 7);
+        grid-column: 2;
+        line-height: 1.2;
+    }
+    .zahlavi{
+        margin:0px;
+        display: grid;
+        grid-template-columns: repeat(5,20%);
+        border: solid 2px rgb(17, 18, 20);
+        background-color: rgb(17, 18, 20);
+        color: rgb(255,255,255);
+        font-size: 18px;
+    }
+    .newsletter{
+        margin: 3%;
+        grid-column: 2;
+    }
+    .dotazy{
+        margin: 3%;
+        grid-column: 3;
+    }
+    .dotazy a{
+        margin-left: 10%;
+        line-height: 1.5;
+        text-decoration: none;
+        color: rgb(255,255,255);
+    }
+    .novinky{
+        margin: 3%;
+        grid-column: 4;
+    }
+    .datum{
+        color: rgb(134, 134, 134);
+    }
+    .naz{
+        font-size: 28px;
+    }
+}
